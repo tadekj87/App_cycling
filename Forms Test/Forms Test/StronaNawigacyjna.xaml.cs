@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using FormsTest.Views;
 
 namespace FormsTest
 {
@@ -37,10 +38,11 @@ namespace FormsTest
 
         void Wyloguj_Button(object sender, System.EventArgs e)
         {
-
+            
             count++;
             ((Button)sender).Text = $"{count}";
-
+            if(count>5) 
+System.Environment.Exit(0);
         }
 
         void Crash_Button(object sender, System.EventArgs e)
