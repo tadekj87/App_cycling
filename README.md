@@ -35,7 +35,7 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 * Wykorzystanie zewnętrznych bibliotek (NuGet) – entity framework
 * Plik Readme w github-ie.
 
-# Technologie do opracowania
+## Technologie do opracowania
 
 * Transmisja BLE (Bluetooth Low Energy) zamiast symulowania wartości mierzonych
 * Testowanie zamierzonej funkcjonalności.
