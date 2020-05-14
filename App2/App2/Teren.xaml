@@ -25,14 +25,14 @@
                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
         <Label Text="Pogoda:"
-               AbsoluteLayout.LayoutBounds="0.15, 0.16, 0.4, 0.1" AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0.15, 0.15, 0.4, 0.1" AbsoluteLayout.LayoutFlags="All"
                FontSize="Large"
                TextColor="White"
                HorizontalTextAlignment="Center"/>
 
         <Editor Text="Wrocław" 
                 x:Name="Lokalizacja"
-                AbsoluteLayout.LayoutBounds="0.65, 0.14, 0.4, 0.1" AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.65, 0.14, 0.3, 0.1" AbsoluteLayout.LayoutFlags="All"
                 TextColor="White"/>
 				
         <Label AbsoluteLayout.LayoutBounds="0.6, 0.215, 0.5, 0.045" AbsoluteLayout.LayoutFlags="All"
@@ -43,8 +43,6 @@
                FontSize="Large"
                x:Name="PredkoscWiatru"
                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-        
-        
 
         <Label Text="Pomiar:"
                AbsoluteLayout.LayoutBounds="0.5, 0.35, 0.4, 0.1" AbsoluteLayout.LayoutFlags="All"
