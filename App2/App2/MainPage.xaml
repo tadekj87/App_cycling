@@ -6,7 +6,6 @@
              mc:Ignorable="d"
              x:Class="App2.MainPage"
              BackgroundColor="Blue">
-
     <AbsoluteLayout>
         <!-- Place new controls here -->
         <Label Text="TEREN" 
