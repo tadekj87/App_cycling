@@ -97,4 +97,3 @@ Po założeniu darmowego konta na stronie appcenter.ms założono nową aplikacj
 uzyskany tam "App Secret" do głównej aplikacji oraz ściagnięto tam pakiety "Microsoft.AppCenter". Od tej pory każde włączenie aplikacji 
 na dowolnym urządzeniu na którym aplikacja jest zainstalowana przekazuje jej dane, takie jak model urządzenia, czas włączenia oraz 
 wysyła raporty błędów na stronę App Center. Dodano również w celach statystycznych sprawdzanie, w jaki sposób aplikacja jest wykorzystywana poprzez wysyłanie informacji, który z treningów został wybrany.
-wysyłanie wiadomości podczas kliknięcia na 
