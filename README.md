@@ -23,9 +23,20 @@ App cycling to aplikacja do planowania treningu kolarskiego
 
 ## Wykorzystane technologie
 
-*
-*
-*
+• User Interface (logowanie do systemu)
+• Log (obsługa dziennika zdarzeń)
+• LINQ — (wykorzystanie SQL podczas pisania programu)
+• Komunikacja z bazą danych (użytkownicy)
+• Komunikacja z zewnętrznym API – pobieranie pogody - pliki json pobierane ze strony openweathermap
+• Obsługa wielowątkowości (funkcje asynchroniczne w obsłudze bazy danych i komunikaji z api(async await))
+• Testowanie zamierzonej funkcjonalności - testowanie wprowadzanie danych w logowaniu
+• Wykorzystanie zewnętrznych bibliotek (NuGet) – entity framework, newtonson.json(lub zamiennik)
+• Plik Readme w github-ie.
+
+# Technologie do opracowania
+
+* Transmisja BLE (Bluetooth Low Energy) zamiast symulowania wartości mierzonych
+* Testowanie zamierzonej funkcjonalności.
 
 # Interfejs
 
