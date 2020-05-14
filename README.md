@@ -21,18 +21,18 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 
 * Zamiast transmisji realnych wartości tymczasowo wprowadzono symulacje wielkości mierzonych opartą o suwaki (slider-y) u [dołu interfejsu](#trening-w-terenie)
 * W [menu](#menu) użytkownik wybiera dwie opcje (Dom i Teren). Planowanie treningu w domu polega na wyborze przycisków "CHILL" i "SILA", które określają zakładaną przez użytkownika moc i kadencję.
-* 
 
 ## Wykorzystane technologie
 
+* Platforma Xamarin (dodana do Visual Studio 2019)
 * User Interface (logowanie do systemu)
 * Log (obsługa dziennika zdarzeń)
-* LINQ — (wykorzystanie SQL podczas pisania programu)
+* LINQ (wykorzystanie SQL podczas pisania programu)
 * Komunikacja z bazą danych (użytkownicy)
 * Komunikacja z zewnętrznym API – pobieranie pogody - pliki json pobierane ze strony openweathermap
 * Obsługa wielowątkowości (funkcje asynchroniczne w obsłudze bazy danych i komunikaji z api(async await))
-* Testowanie zamierzonej funkcjonalności - testowanie wprowadzanie danych w logowaniu
-* Wykorzystanie zewnętrznych bibliotek (NuGet) – entity framework, newtonson.json(lub zamiennik)
+* Testowanie zamierzonej funkcjonalności (testowanie wprowadzanie danych w logowaniu)
+* Wykorzystanie zewnętrznych bibliotek (NuGet) – entity framework
 * Plik Readme w github-ie.
 
 # Technologie do opracowania
@@ -42,7 +42,9 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 
 # Interfejs
 
-### Logowanie
+Po włączeniu programu użytkownik jest proszony o zarejestrowanie się (login i hasło). 
+
+### Rejestracja i logowanie
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/poczatek_logowanie.png)
 
@@ -51,6 +53,8 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 ### Menu
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/menu.png)
+
+W Menu, aby rozpocząć trening wybiera się przyciski "Dom" lub "Teren"
 
 ### Trening w terenie 
 
@@ -62,6 +66,10 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/teren_onRun.png)
 
+Aplikacja mierzy i podaje średnie wartości wielkości mierzonych oraz czas treningu.
+
+Automatycznie pobierane dane pogodowe przewidziane są dla miasta: Wrocław. Jeśli użytkownik chce je zmienić powinien wyedytować pole po prawej stronie od etykiety: "Pogoda".
+
 ### Trening w domu (np. na trenażerze) 
 
 * po włączeniu
@@ -71,6 +79,11 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 * przykład działania
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/dom_onRun.png)
+
+Ustawiony czas treningu wynosi 60 min i jest odliczany. Dzięki temu użytkownik wie, ile czasu zostało mu do końca treningu.
+
+W przypadku wyboru przycisku "CHILL" wartości zadane określają moc równą 150 W i kadencję 90 rpm, a "SILA" odpowiednio 300 W i 80 rpm.
+Jeśli użytkownik spełnia te kryteria (z niepewnością +/- 10 %) mierzone wartości mają zielony kolor czcionki, zaś jeśli nie- czerwony.
 
 # Obsluga dziennika zdarzen
 
