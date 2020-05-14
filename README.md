@@ -5,7 +5,7 @@ App cycling to aplikacja do planowania treningu kolarskiego
 ## Zawartość instrukcji
 * [Koncepcja projektu](#koncepcja)
 * [Interfejs](#interfejs)
-* [Obsługa dziennika zdarzeń](#obsluga)
+* [Obsluga dziennika zdarzen](#obsluga)
 
 ## Koncepcja projektu
 
@@ -37,6 +37,6 @@ App cycling to aplikacja do planowania treningu kolarskiego
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/dom_onRun.png)
 
-# Obsługa dziennika zdarzeń
+# Obsluga dziennika zdarzen
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/log1.png)
