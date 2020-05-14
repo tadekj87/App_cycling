@@ -54,7 +54,9 @@ Po włączeniu programu użytkownik jest proszony o zarejestrowanie się (login 
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/menu.png)
 
-W Menu, aby rozpocząć trening wybiera się przyciski "Dom" lub "Teren"
+W Menu, aby rozpocząć trening wybiera się przyciski "Dom" lub "Teren".
+
+Przycisku "EXCEPTION" i "CRASH" służą do [symulowania obługi zdarzeń](#obsluga-dziennika-zdarzen). 
 
 ### Trening w terenie 
 
