@@ -42,7 +42,7 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 
 # Interfejs
 
-Po włączeniu programu użytkownik jest proszony o zarejestrowanie się (przycisk "REGISTER"- jeśli nie ma go w bazie danych). Jeśli jest wystarczy wprowadzić swoje dane (przycisk "SIGN UP"). 
+Po włączeniu programu użytkownik jest proszony o zarejestrowanie się (przycisk "REGISTER"- jeśli nie ma go w bazie danych). Jeśli jest wystarczy wprowadzić swoje dane (przycisk "SIGN IN"). 
 
 ### Rejestracja i logowanie
 
