@@ -58,7 +58,7 @@ Po udanym zalogowaniu pojawia się widok Menu.
 
 W Menu, aby rozpocząć trening wybiera się przyciski "Dom" lub "Teren".
 
-Przycisku "EXCEPTION" i "CRASH" służą do [symulowania obługi zdarzeń](#obsluga-dziennika-zdarzen). 
+Przyciski "EXCEPTION" i "CRASH" służą do [symulowania obługi zdarzeń](#obsluga-dziennika-zdarzen). 
 
 ### Trening w terenie 
 
