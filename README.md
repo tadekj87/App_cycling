@@ -42,13 +42,15 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 
 # Interfejs
 
-Po włączeniu programu użytkownik jest proszony o zarejestrowanie się (login i hasło). 
+Po włączeniu programu użytkownik jest proszony o zarejestrowanie się (przycisk "REGISTER"- jeśli nie ma go w bazie danych). Jeśli jest wystarczy wprowadzić swoje dane. 
 
 ### Rejestracja i logowanie
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/poczatek_logowanie.png)
 
 ![alt text](https://github.com/tadekj87/App_cycling/blob/master/App2/App2/logowanie.png)
+
+Po udanym zalogowaniu pojawia się widok Menu.
 
 ### Menu
 
