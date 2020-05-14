@@ -1,6 +1,8 @@
 # App cycling
 
-App cycling to aplikacja do planowania treningu kolarskiego
+App cycling to aplikacja do planowania i monitorowania treningu kolarskiego. Bazuje ona na danych mierzonych kadencji (czyli obrotów na minutę) i mocy (w Watach). Na podstawie tych wielkości można przeprowadzić trening na zewnątrz lub też w domu (np. na trenażerze).
+
+Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i siłę wiatru), które to wartosci są istotne w trakcie jazdy na rowerze.
 
 ## Zawartość instrukcji
 * [Koncepcja projektu](#koncepcja-projektu)
