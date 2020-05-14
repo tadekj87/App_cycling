@@ -19,9 +19,9 @@ Dodatkowo program potrafi np. wyświetlić aktualną pogodę (temperaturę i si�
 
 ### Zmiany w stosunku do koncepcji
 
-*
-*
-*
+* Zamiast transmisji realnych wartości tymczasowo wprowadzono symulacje wielkości mierzonych opartą o suwaki (slider-y) u dołu interfejsu
+* W [menu](#menu) użytkownik wybiera dwie opcje (Dom i Teren). Planowanie treningu w domu polega na wyborze przycisków "CHILL" i "SILA", które określają zakładaną przez użytkownika moc i kadencję.
+* 
 
 ## Wykorzystane technologie
 
