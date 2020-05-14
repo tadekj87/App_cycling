@@ -5,7 +5,7 @@ App cycling to aplikacja do planowania treningu kolarskiego
 ## Zawartość instrukcji
 * [Koncepcja projektu](#koncepcja)
 * [Interfejs](#interfejs)
-* [Obsluga dziennika zdarzen](#obsluga)
+* [Obsluga dziennika zdarzen](#obsluga-dziennika)
 
 ## Koncepcja projektu
 
