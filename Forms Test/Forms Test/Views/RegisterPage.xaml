@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FormsTest.Views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+
+            <Label x:Name="Lbl_Username" Text="Username" />
+            <Entry x:Name="Entry_Username" Text="{Binding UserName}"/>
+            <Label x:Name="Lbl_Password" Text="Password" />
+           
+            <StackLayout Grid.Row="2" Grid.Column="1">
+               
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                     <Entry IsPassword="True" x:Name="Entry_Password" TextColor="Black" Text="{Binding UserPassword}" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Image Source="eye32.png" HorizontalOptions="End" VerticalOptions="Center" WidthRequest="50" HeightRequest="50" Grid.Column="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ShowPass" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Grid>
+            </StackLayout>
+            <Button x:Name="Button_Register" Text="Register" Command="{Binding AddCommand}"/>
+            <Button x:Name="Button_toLogin" Text="To Login" Command="{Binding BackToLogin}"/>
+            <ListView ItemsSource="{Binding UsersL}"/>
+            <Button x:Name="Button_Refresh" Text="Refresh" Command="{Binding RefreshCommand}"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
