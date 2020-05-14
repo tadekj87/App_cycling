@@ -24,8 +24,8 @@
 
 
         <Button Text="Exception" Clicked="Exception_Button"
-                AbsoluteLayout.LayoutBounds="0.1, 0.75, 100, 60" AbsoluteLayout.LayoutFlags="PositionProportional"
-                FontSize="Medium"/>
+                AbsoluteLayout.LayoutBounds="0.09, 0.75, 110, 60" AbsoluteLayout.LayoutFlags="PositionProportional"
+                FontSize="Subtitle"/>
         
         <Button Text="Crash" Clicked="Crash_Button"
                 AbsoluteLayout.LayoutBounds="0.1, 0.86, 100, 60" AbsoluteLayout.LayoutFlags="PositionProportional"
